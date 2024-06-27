@@ -1,0 +1,18 @@
+ baseURL = 'http://localhost:1313/'
+ languageCode = 'ja'
+ languageName = 'Japanese'
+ defaultContentLanguage = 'ja'
+ hasCJKLanguage = true
+ title = 'ΔV LAB'
+ theme = 'ananke'
+ 
+ [params]
+   text_color = 'dark-gray'
+   background_color_class = 'bg-navy'
+   author = 'ΔV LAB, rei_512_'
+   favicon = 'https://pbs.twimg.com/profile_images/1611051659479896072/3YTrGIBY_400x400.jpg'
+   site_logo = 'https://pbs.twimg.com/profile_images/1611051659479896072/3YTrGIBY_400x400.jpg'
+ 
+ [[params.ananke_socials]]
+   name = 'twitter(X)'
+   url  = 'https://twitter.com/DeltaV_Lab'
