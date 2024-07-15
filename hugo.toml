@@ -16,3 +16,4 @@
  [[params.ananke_socials]]
    name = 'twitter(X)'
    url  = 'https://twitter.com/DeltaV_Lab'
+theme = 'ananke'

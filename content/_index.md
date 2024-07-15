@@ -1,7 +1,10 @@
 ---
-description: "ΔV LAB 底辺高専生の忘備録"
+description: "ΔV LAB | ΔV 研究所"
 ---
 
-# パワみ大好き
-電気科高専生が回路を燃やしたりツイートを燃やしたりするブログです．
+
+電気科高専生が回路を燃やしたりするブログ．
 一応専門は制御と三相同期モータ
+
+[Twitter(X)](https://x.com/DeltaV_Lab)\
+[GitHub](https://github.com/rei512)
