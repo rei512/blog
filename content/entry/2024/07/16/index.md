@@ -3,12 +3,11 @@ title = 'KiCad+FlatCAM+Kitmillで切削基板を作る'
 date = 2024-07-16T03:06:37+09:00
 draft = false
 +++
-# KiCad+FlatCAM+Kitmillで切削基板を作る
 通常，Kitmillを使うとしたらORIMIN PCBを使うのが一般的だと思います．しかしながらあのソフトウェアはX2拡張に非対応であるため(具体的には円弧なドが使えない)KiCadとは相性が悪いです．そのためフリーのOSSなCAMであるFlatCAMを使ってガーバーデータからG-codeを生成しようと思います．
 
 ## ガーバーデータの用意
 ![製造用ファイル出力(ガーバーデータ)](./fig/1_gerber.png "ガーバーデータ")
-ドリルデータはPTHとNPTHを纏めておく
+ドリルデータはPTHとNPTHを纏めておく\
 ![製造用ファイル出力(ドリルデータ)](./fig/2_drill.png "ドリルデータ")
 
 ## CAM(FlatCAM)で変換

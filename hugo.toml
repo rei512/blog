@@ -1,11 +1,12 @@
- baseURL = 'http://localhost:1313/'
+ baseURL = 'https://blog.deltav-lab.org/'
  languageCode = 'ja'
  languageName = 'Japanese'
  defaultContentLanguage = 'ja'
  hasCJKLanguage = true
  title = 'ΔV LAB'
- theme = 'ananke'
+ theme = 'mainroad'
  
+
  [params]
    text_color = 'dark-gray'
    background_color_class = 'bg-navy'
@@ -13,7 +14,42 @@
    favicon = 'https://pbs.twimg.com/profile_images/1611051659479896072/3YTrGIBY_400x400.jpg'
    site_logo = 'https://pbs.twimg.com/profile_images/1611051659479896072/3YTrGIBY_400x400.jpg'
  
+ 
  [[params.ananke_socials]]
    name = 'twitter(X)'
    url  = 'https://twitter.com/DeltaV_Lab'
-theme = 'ananke'
+[Params.logo]
+  image = "https://pbs.twimg.com/profile_images/1611051659479896072/3YTrGIBY_400x400.jpg" # Logo image. Path relative to "static"
+  title = "ΔV LAB" # Logo title, otherwise will use site title
+  subtitle = "高専生の防備録" # Logo subtitle
+
+[Params.thumbnail]
+  visibility = ["list", "post"] # Control thumbnail visibility
+
+[Params.sidebar]
+  home = "right" # Configure layout for home page
+  list = "left"  # Configure layout for list pages
+  single = false # Configure layout for single pages
+  # Enable widgets in given order
+  widgets = ["search", "recent", "categories", "taglist", "social", "languages"]
+
+[Params.widgets]
+  recent_num = 5 # Set the number of articles in the "Recent articles" widget
+  categories_counter = false # Enable counter for each category in "Categories" widget
+  tags_counter = false # Enable counter for each tag in "Tags" widget
+
+[Params.widgets.search]
+  cached = false # activate cache if true
+  url = "https://google.com/search"
+  [Params.widgets.search.input]
+    name = "sitesearch"
+    pre = ""
+[Params.widgets.social]
+  cached = false # activate cache if true
+  # Enable parts of social widget
+  twitter = "DeltaV_Lab"
+  github = "rei512"
+  email = "contact@deltav-lab.org"
+
+[[Params.widgets.social.custom]]
+  title = "ΔV LAB (このサイト)"
