@@ -6,8 +6,15 @@
     <description>Recent content on ΔV LAB</description>
     <generator>Hugo</generator>
     <language>ja</language>
-    <lastBuildDate>Tue, 16 Jul 2024 03:06:37 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jul 2024 11:32:26 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About me</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Fri, 26 Jul 2024 11:32:26 +0900</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>description: &amp;ldquo;ΔV LAB | ΔV 研究所&amp;rdquo; 電気科高専生が回路を燃やしたりするブログ． 一応専門は制御と三相同期モータ Twitter(X) GitHub</description>
+    </item>
     <item>
       <title>KiCad&#43;FlatCAM&#43;Kitmillで切削基板を作る</title>
       <link>http://localhost:1313/entry/2024/07/16/</link>

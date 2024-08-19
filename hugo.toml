@@ -53,3 +53,20 @@
 
 [[Params.widgets.social.custom]]
   title = "ΔV LAB (このサイト)"
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "entry"
+    name = "Entry"
+    url = "/Entry"
+    weight = 2
+  [[menu.main]]
+    identifier = "about"
+    name = "About Us"
+    url = "/about/"
+    weight = 4
